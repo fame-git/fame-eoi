@@ -22,3 +22,7 @@ func viewTemplate(c *fiber.Ctx) error {
 		"Name": "World",
 	})
 }
+
+func Add(x, y int) int {
+	return x + y
+}
