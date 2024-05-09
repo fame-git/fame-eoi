@@ -50,6 +50,8 @@ jobs:
         name: Go-results
         path: TestResults.json
 
+    - name: Build Go
+      run: go build -v ./...
 
 
     - run: echo "🍏 This job's status is ${{ job.status }}."
